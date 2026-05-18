@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1B1B2F">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score Wall"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#2EC4B6"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etTeam1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Team 1 Name"
+            android:textColorHint="#AAAAAA"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FFFFFF"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/etTeam2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Team 2 Name"
+            android:textColorHint="#AAAAAA"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FFFFFF"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/etScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Score (e.g. 3-1)"
+            android:textColorHint="#AAAAAA"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FFFFFF"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnPostScore"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Post Score"
+            android:backgroundTint="#2EC4B6"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recent Results"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FF6B00"
+            android:layout_marginBottom="8dp"/>
+
+        <LinearLayout
+            android:id="@+id/scoreList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+    </LinearLayout>
+</ScrollView>
