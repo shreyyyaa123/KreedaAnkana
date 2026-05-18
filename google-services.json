@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "601993979272",
+    "project_id": "kreedaankana-68c44",
+    "storage_bucket": "kreedaankana-68c44.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601993979272:android:d4e6d3f5a2aea2f3b4063d",
+        "android_client_info": {
+          "package_name": "com.example.kreedaankana"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuNDUbmtWbp8vfyZzDVt_tiLNLP7TEskk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
